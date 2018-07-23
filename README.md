@@ -16,4 +16,10 @@
 --foreignKeySuffix	--	fks Set foreign key suffix (e.g. _id as in post_id)	[默认值: "Id"]
 --help	-h	显示帮助信息	[布尔]
 --version	-v	显示版本号	[布尔]
+
+额外说明：
+用途就是模拟json数据，从git克隆到需要模拟数据的项目的src同级目录，进入到json-sover-api文件
+1.安装依赖  npm install   2.启动服务 npm run dev  3.配置接口需要的数据
+一切就绪可以像正常api一样调用
+
 ```
